@@ -24,6 +24,9 @@ body {
     color: rgb(50, 122, 134);
 }
 
+.nav-bar li:active{
+    background-color: rgb(31, 93, 112);
+}
 .nav-bar a {
     text-decoration: none;
     display: block;
