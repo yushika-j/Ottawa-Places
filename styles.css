@@ -17,6 +17,7 @@ body {
     padding: 10px;
     margin: 10px;
     float: left;
+    border-radius: 5px;
 }
 
 .nav-bar li:hover {
@@ -68,8 +69,6 @@ h5 {
 .places-list{
     display: flex;
     flex-direction: row;
-    
-
 }
 .card {
     
