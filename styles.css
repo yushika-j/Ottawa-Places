@@ -68,7 +68,7 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.explore{
+.explore-1{
     background-color: rgb(50, 122, 134);
     color: rgb(255, 91, 91);
     height:50em;
@@ -79,20 +79,20 @@ body {
     
 }
 
-.explore-text{
+.explore-text1{
     background-color: white;
     height:50em;
     width:50%;
 }
 
-.explore-text h1{
+.explore-text1 h1{
     font-size: 30px;
     color: rgb(50, 122, 134);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top:7em;
 }
-.explore-text p{
+.explore-text1 p{
     font-size: 15px;
     color: rgb(50, 122, 134);
     font-family: 'Times New Roman', Times, serif;
@@ -114,6 +114,39 @@ body {
     text-decoration: none;
     align-content: center;
     float: center;
+}
+
+.explore-2{
+    background-color: rgb(50, 122, 134);
+    color: rgb(255, 91, 91);
+    height:50em;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    
+    
+}
+
+.explore-text2{
+    background-color: white;
+    height:50em;
+    width:50%;
+}
+
+.explore-text2 h1{
+    font-size: 30px;
+    color: rgb(50, 122, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top:7em;
+}
+.explore-text2 p{
+    font-size: 15px;
+    color: rgb(50, 122, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
 }
 
 .places-list{
