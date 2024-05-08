@@ -26,10 +26,14 @@
                 <p>Step into Ottawa's past. Explore iconic landmarks. Discover captivating stories. Journey through history now.</p>
                 <button class="historical-btn">See More</button>
             </div>
-            <div class="explore-img1"></div>
+            <div class="explore-img1">
+                <img src="histo1.jpg" >
+            </div>
         </div>
         <div class="explore-2">
-            <div class="explore-img2"></div>
+            <div class="explore-img2">
+                <img src="food1.jpg" >
+            </div>
             <div class="explore-text2">
                 <h1>Food and Drinks.</h1>
                 <p>Savor Ottawa's culinary scene. From cozy cafes to gourmet restaurants, indulge in delightful flavors.</p>
@@ -42,7 +46,31 @@
                 <p>Journey through Ottawa's Hidden Gems to unearth a tapestry of captivating stories, from tranquil parks to hidden viewpoints, each waiting to be discovered and cherished.</p>
                 <button class="historical-btn">See More</button>
             </div>
-            
+            <div class="explore-img3">
+                <img src="fall2.jpg" >
         </div>
+        
+        <div class="book-now">
+            <h1>Book Your Visit Now!</h1>
+            <p>Plan your visit to Ottawa with OVisita. Book your tickets now and embark on a journey of discovery.</p>
+            <button class="historical-btn">Book Now</button>
+        </div>
+        <div class="footer">
+            <p>© 2021 OVisita. All Rights Reserved.</p>
+        <script>
+        var prevScrollpos = window.scrollY; // Initialize the prevScrollpos variable with the initial scroll position
+
+            window.onscroll = function() {
+                var currentScrollPos = window.scrollY;
+                console.log("prevScrollpos:", prevScrollpos);
+                console.log("currentScrollPos:", currentScrollPos);
+                if (prevScrollpos > currentScrollPos) {
+                    document.getElementById("nav-bar").style.top = "-50px";
+                } else {
+                    document.getElementById("nav-bar").style.top = "0"; // Show the nav bar when scrolling down
+                }
+                prevScrollpos = currentScrollPos;
+            }
+            </script>
     </body>
 </html>
