@@ -13,8 +13,9 @@ body {
     overflow: hidden;
     transition: top 0.3s;
     position: fixed; 
-    top: 0;
+    top: 0px;
     width: 100%;
+    z-index: 3;
 }
 
 .nav-bar li {
@@ -68,7 +69,7 @@ body {
     margin-top: 2em;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    transition:0.8s ease;
+    
 }
 
 .home-div h5 {
@@ -79,7 +80,7 @@ body {
     margin-top: 6em;
     z-index: -1;
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
-    transition: 0.8s ease;
+    
 }
 
 .explore-1{
@@ -92,7 +93,6 @@ body {
     margin-top:40em;
     display:flex;
     flex-direction: row;
-    
 }
 
 .explore-text1{
@@ -168,17 +168,15 @@ body {
     background-color: rgb(50, 122, 134);
     position: relative;
     height:50em;
-    justify-content: center;
-    align-items: center;
     font-size: 10px;
+    width: 100%;
     display:flex;
-    flex-direction: row;
 }
 
 .explore-text3{
     background-color: white;
     height:50em;
-    width:50%;
+    
 }
 
 .explore-text3 h1{
@@ -211,6 +209,47 @@ body {
     height:500px;
 }
 
+.book-container{
+    background-color: rgba(18, 78, 88, 0.493);
+    justify-content: center;
+    padding:90px;
+    margin-top:0px;
+
+}
+
+.book-container h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(160, 160, 160, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top:1em;
+}
+.book-container p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top:1em;
+}
+.book-btn{
+    background-color: rgba(255, 255, 255, 0.281);
+    border-color:rgb(49, 144, 168);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 400px;
+}
+.footer p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
 .places-list{
     display: flex;
     flex-direction: row;
