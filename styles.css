@@ -70,17 +70,50 @@ body {
 
 .explore{
     background-color: rgb(50, 122, 134);
-    color: rgb(255, 255, 255);
-    height:280px;
-    text-align: center;
+    color: rgb(255, 91, 91);
+    height:50em;
+    justify-content: center;
+    align-items: center;
     font-size: 10px;
     margin-top:40em;
-
     
 }
 
 .explore-text{
     background-color: white;
+    height:50em;
+    width:50%;
+}
+
+.explore-text h1{
+    font-size: 30px;
+    color: rgb(50, 122, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top:7em;
+}
+.explore-text p{
+    font-size: 15px;
+    color: rgb(50, 122, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.historical-btn{
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(49, 144, 168);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(49, 144, 168);
+    padding: 14px;
+    margin: 10px;
+    margin-left: 200px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    float: center;
 }
 
 .places-list{
