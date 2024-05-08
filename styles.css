@@ -75,10 +75,12 @@ body {
     text-align: center;
     font-size: 10px;
     margin-top:40em;
+
     
 }
 
 .explore-text{
+    background-color: white;
 }
 
 .places-list{
