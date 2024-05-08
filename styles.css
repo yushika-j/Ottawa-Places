@@ -120,8 +120,6 @@ body {
     background-color: rgb(50, 122, 134);
     color: rgb(255, 91, 91);
     height:50em;
-    justify-content: center;
-    align-items: center;
     font-size: 10px;    
 }
 
@@ -129,6 +127,7 @@ body {
     background-color: white;
     height:50em;
     width:50%;
+    float: right;
 }
 
 .explore-text2 h1{
@@ -139,6 +138,38 @@ body {
     padding-top:7em;
 }
 .explore-text2 p{
+    font-size: 15px;
+    color: rgb(50, 122, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.explore-3{
+    background-color: rgb(50, 122, 134);
+    color: rgb(255, 91, 91);
+    height:50em;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    
+}
+
+.explore-text3{
+    background-color: white;
+    height:50em;
+    width:50%;
+}
+
+.explore-text3 h1{
+    font-size: 30px;
+    color: rgb(50, 122, 134);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top:7em;
+}
+.explore-text3 p{
     font-size: 15px;
     color: rgb(50, 122, 134);
     font-family: 'Times New Roman', Times, serif;
