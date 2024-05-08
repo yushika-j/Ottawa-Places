@@ -132,3 +132,9 @@ h5 {
     align-items: center;
     padding: 20px;
 }
+
+.about{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
