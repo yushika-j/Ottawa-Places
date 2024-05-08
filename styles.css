@@ -50,20 +50,35 @@ body {
     overflow: hidden;
 }
 
-h1 {
+.home-div h1 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
     margin-top: 1.5em;
     z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h5 {
+.home-div h5 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 15px;
     margin-top: 1em;
     z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.explore{
+    background-color: rgb(50, 122, 134);
+    color: rgb(255, 255, 255);
+    height:280px;
+    text-align: center;
+    font-size: 10px;
+    margin-top:40em;
+    
+}
+
+.explore-text{
 }
 
 .places-list{
@@ -132,9 +147,21 @@ h5 {
     align-items: center;
     padding: 20px;
 }
-
-.about{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: bold;
+.about-body{
+    background-color: rgb(59, 158, 165);
 }
+
+.about-div{
+    background-color: #aedef1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+    margin: 80px;
+    text-align: center;
+}
+.about-para h1,p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight:400;
+}
+
