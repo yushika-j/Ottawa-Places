@@ -1,8 +1,22 @@
+
+@media(min-aspect-ratio: 16/9) {
+    .video {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media(max-aspect-ratio: 16/9) {
+    .video {
+        height: 100%;
+        width: auto;
+    }
+}
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    overflow:scroll;
+    overflow:auto;
     
 }
 
@@ -44,14 +58,11 @@ body {
 
 
 .video {
-    -webkit-transform: translateZ(-999px) scale(2);
-    transform: translateZ(-999px) scale(2);
     z-index: -1;
-    opacity: 0.7;
-    height: 20em;
-    width: 68em;;
-    overflow: hidden;
     position: fixed;
+    right:0;
+    bottom:0;
+    top:0;
 }
 .home-div{
     background-size: cover;
@@ -86,7 +97,7 @@ body {
 .explore-1{
     background-color: rgb(50, 122, 134);
     color: rgb(255, 91, 91);
-    height:50em;
+    height:60em;
     justify-content: left;
     align-items: left;
     font-size: 10px;
@@ -97,7 +108,7 @@ body {
 
 .explore-text1{
     background-color: white;
-    height:50em;
+    height:60em;
     width:50%;
 }
 
@@ -108,6 +119,7 @@ body {
     text-align: center;
     padding-top:7em;
 }
+
 .explore-text1 p{
     font-size: 15px;
     color: rgb(50, 122, 134);
@@ -135,7 +147,7 @@ body {
 .explore-2{
     background-color: rgb(50, 122, 134);
     color: rgb(255, 91, 91);
-    height:50em;
+    height:60em;
     font-size: 10px;    
     display:flex;
     flex-direction: row;
@@ -143,9 +155,10 @@ body {
 
 .explore-text2{
     background-color: white;
-    height:50em;
+    height:60em;
     width:50%;
     float: right;
+    
 }
 
 .explore-text2 h1{
@@ -167,7 +180,7 @@ body {
 .explore-3{
     background-color: rgb(50, 122, 134);
     position: relative;
-    height:50em;
+    height:60em;
     font-size: 10px;
     width: 100%;
     display:flex;
@@ -175,7 +188,7 @@ body {
 
 .explore-text3{
     background-color: white;
-    height:50em;
+    height:60em;
     
 }
 
@@ -197,16 +210,17 @@ body {
 }
 
 .explore-img1 img{
-    height: 500px;
-    width: 540px;
+    height: 60em;
+    width: 675px;
 }
 .explore-img2 img{
-    width: 540px;
+    height: 60em;
+    width: 675px;
     
 }   
 .explore-img3 img{
-    width: 540px;
-    height:500px;
+    height: 60em;
+    width: 675px;
 }
 
 .book-container{
@@ -243,12 +257,21 @@ body {
     margin: 10px;
     font-size: 15px;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 550px;
+    float:center;
+}
+
+.book-btn:hover{
+    background-color: rgb(49, 144, 168);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+
 }
 .footer p{
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 15px;
+    color: white;
 }
 
 
