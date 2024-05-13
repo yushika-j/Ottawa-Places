@@ -61,20 +61,6 @@
         <div class="footer">
             <p>© 2021 OVisita. All Rights Reserved.</p>
         </div>
-        <script>
-        var prevScrollpos = window.scrollY; // Initialize the prevScrollpos variable with the initial scroll position
 
-            window.onscroll = function() {
-                var currentScrollPos = window.scrollY;
-                console.log("prevScrollpos:", prevScrollpos);
-                console.log("currentScrollPos:", currentScrollPos);
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("nav-bar").style.top = "-50px";
-                } else {
-                    document.getElementById("nav-bar").style.top = "0"; // Show the nav bar when scrolling down
-                }
-                prevScrollpos = currentScrollPos;
-            }
-            </script>
     </body>
 </html>
