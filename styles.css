@@ -272,7 +272,7 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    color: white;
+    color: black;
 }
 
 
@@ -287,19 +287,20 @@ body {
 }
 .places-list{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .card {
-    width:500px;
-    align-items: center;
+    width:400px;
     margin:10px;
     justify-content: center;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgb(228, 246, 253);
     transition: 0.5s;
-    border-radius: 6px;
-    padding-left: 25px; 
+    border-radius: 6px; 
+    
 }
 
 .card img {
@@ -308,7 +309,7 @@ body {
     height: 200px;
     border-radius: 2px;
     margin-top: 2px;
-    
+    padding-left: 40px;
 }
 
 .card:hover {
@@ -350,7 +351,8 @@ body {
 
 
 .contact-body{
-    background-color: rgba(160, 225, 236, 0.158);
+    background: radial-gradient(white, rgb(15, 131, 151));
+    background-repeat: repeat;
 }
 
 .contact-form{
@@ -360,7 +362,7 @@ body {
     height:30em;
     width: 900px;
     margin-left: 15%;
-    background-color: rgb(145, 181, 185);
+    background-color: rgba(185, 248, 255, 0.37);
     box-sizing:border-box;
     display: flex;
     flex-direction: column;
@@ -410,11 +412,12 @@ body {
     width: 300px;
 }
 .about-body{
-    background-color: rgb(59, 158, 165);
+    background: radial-gradient(white, rgb(15, 131, 151));
+    background-repeat: repeat;
 }
 
 .about-div{
-    background-color: #aedef1;
+    background-color: #aedef179;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 80px;
